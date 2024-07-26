@@ -37,4 +37,13 @@ public class HardwareItemController {
     public void updateHardwareItem(@RequestBody HardwareItem hardwareItem){
         hardwareItemService.updateHardwareItem(hardwareItem);
     }
+    @GetMapping("/find-by-item-id/{id}")
+    public HardwareItem findById(@PathVariable Long id){
+        return hardwareItemService.findById(id);
+    }
+
+    @GetMapping("find-by-name/{name}")
+    public HardwareItem findByName(@PathVariable String name){
+        return hardwareItemService.findByName(name);
+    }
 }
