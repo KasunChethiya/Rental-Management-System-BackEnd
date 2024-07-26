@@ -20,7 +20,7 @@ public class CustomerController {
 
     @PostMapping("add-customer")
     @ResponseStatus(HttpStatus.CREATED)
-    public void addHardwareItem(@RequestBody Customer customer){
+    public void addCustomer(@RequestBody Customer customer){
         customerService.addCustomer(customer);
 
     }
@@ -35,7 +35,7 @@ public class CustomerController {
         return "Deleted";
     }
     @PostMapping("/update-customer")
-    public void updateHardwareItem(@RequestBody Customer customer){
+    public void updateCustomer(@RequestBody Customer customer){
         customerService.updateCustomer(customer);
     }
     @GetMapping("/find-by-customer-id/{id}")
