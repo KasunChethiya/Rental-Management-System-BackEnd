@@ -42,9 +42,6 @@ public class RentalController {
         return rentalService.findById(id);
     }
 
-    @GetMapping("find-by-name/{name}")
-    public Rental findByName(@PathVariable String name){
-        return rentalService.findByName(name);
-    }
+
 
 }

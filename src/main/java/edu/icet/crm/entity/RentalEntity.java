@@ -15,7 +15,7 @@ import lombok.ToString;
 public class RentalEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long rentID;
+    private Long rentId;
     private String rentalDate;
     private String returnDate;
     private String dueDate;

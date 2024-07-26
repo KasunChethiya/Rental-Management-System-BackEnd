@@ -1,6 +1,6 @@
 package edu.icet.crm.service;
 
-import edu.icet.crm.dto.Customer;
+
 import edu.icet.crm.dto.Rental;
 import edu.icet.crm.entity.RentalEntity;
 
@@ -17,5 +17,4 @@ public interface RentalService {
 
     Rental findById(Long id);
 
-    Rental findByName(String name);
 }
