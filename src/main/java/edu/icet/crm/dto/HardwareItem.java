@@ -12,8 +12,8 @@ import lombok.ToString;
 public class HardwareItem {
     private Long itemID;
     private String name;
-    private String rentalPerDay;
-    private String finePerDay;
+    private Double rentalPerDay;
+    private Double finePerDay;
     private String availability;
 
 }
