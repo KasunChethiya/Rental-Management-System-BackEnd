@@ -1,8 +1,8 @@
 package edu.icet.crm.controller;
 
-import edu.icet.crm.dto.Customer;
+
 import edu.icet.crm.dto.Rental;
-import edu.icet.crm.entity.CustomerEntity;
+
 import edu.icet.crm.entity.RentalEntity;
 import edu.icet.crm.service.RentalService;
 import lombok.RequiredArgsConstructor;
@@ -38,12 +38,12 @@ public class RentalController {
         rentalService.updateRental(rental);
     }
     @GetMapping("/find-by-rental-id/{id}")
-    public Customer findById(@PathVariable Long id){
+    public Rental findById(@PathVariable Long id){
         return rentalService.findById(id);
     }
 
     @GetMapping("find-by-name/{name}")
-    public Customer findByName(@PathVariable String name){
+    public Rental findByName(@PathVariable String name){
         return rentalService.findByName(name);
     }
 

@@ -15,7 +15,7 @@ public interface RentalService {
 
     void updateRental(Rental rental);
 
-    Customer findById(Long id);
+    Rental findById(Long id);
 
-    Customer findByName(String name);
+    Rental findByName(String name);
 }

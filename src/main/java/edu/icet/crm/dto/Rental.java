@@ -11,7 +11,7 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class Rental {
-    private Long rentID;
+    private Long rentId;
     private String rentalDate;
     private String returnDate;
     private String dueDate;
