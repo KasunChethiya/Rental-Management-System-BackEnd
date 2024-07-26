@@ -36,3 +36,9 @@ w
 G.idea/sonarlint/issuestore/1/a/1a73e0c81acae6f719c0ad6780026d23ce0ef4f4,b\7\b75c2b3ca183652fa7bc917d9103d6fc71b8f21c
 w
 G.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,e\d\ed67eb178d523a4b3f117dcbe0eda5196367ceec
+i
+9src/main/java/edu/icet/crm/entity/HardwareItemEntity.java,c\c\cc88d5e3e445f798f81349c0b51cd446c657007f
+c
+3src/main/java/edu/icet/crm/entity/RentalEntity.java,c\4\c42545ff3b5c61ec18e0911ca3eaecc7ba6d429d
+q
+Asrc/main/java/edu/icet/crm/controller/HardwareItemController.java,d\c\dc33c38021dce3fb2e452108488db999f966a970
