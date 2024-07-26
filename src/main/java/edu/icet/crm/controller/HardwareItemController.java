@@ -34,7 +34,7 @@ public class HardwareItemController {
         return "Deleted";
     }
     @PostMapping("/update-hardware-item")
-    public void updateEmployee(@RequestBody HardwareItem hardwareItem){
+    public void updateHardwareItem(@RequestBody HardwareItem hardwareItem){
         hardwareItemService.updateHardwareItem(hardwareItem);
     }
 }
