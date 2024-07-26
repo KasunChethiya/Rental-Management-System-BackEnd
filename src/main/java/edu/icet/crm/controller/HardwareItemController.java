@@ -33,7 +33,7 @@ public class HardwareItemController {
         hardwareItemService.deleteHardwareItemById(id);
         return "Deleted";
     }
-    @PostMapping("/update-employee")
+    @PostMapping("/update-hardware-item")
     public void updateEmployee(@RequestBody HardwareItem hardwareItem){
         hardwareItemService.updateHardwareItem(hardwareItem);
     }
